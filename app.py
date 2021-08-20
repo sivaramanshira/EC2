@@ -5,8 +5,8 @@ from io import BytesIO
 
 
 
-positvepercent = 35
-negativepercent = 40
+positvepercent = 25
+negativepercent = 50
 neutralpercent = 25
 
 
