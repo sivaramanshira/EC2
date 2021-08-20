@@ -27,6 +27,6 @@ encoded = base64.b64encode(tmpfile.getvalue()).decode('utf-8')
 
 html = 'Jenkins Integration with Docker in EC2 instance' + '<img src=\'data:image/png;base64,{}\'>'.format(encoded) + 'Created by Sivaraman'
 
-with open('/var/www/html/index.html','w') as f:
+with open('index.html','w') as f:
     f.write(html)
 plt.show()
