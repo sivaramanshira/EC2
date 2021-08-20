@@ -5,9 +5,9 @@ from io import BytesIO
 
 
 
-positvepercent = 25
+positvepercent = 30
 negativepercent = 50
-neutralpercent = 25
+neutralpercent = 20
 
 
 cars = ['Jenkins','Docker','GIT']
